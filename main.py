@@ -1,7 +1,7 @@
 from spellchecker import SpellChecker
 corrector = SpellChecker()
 
-word = input("Enter a Word : ")
+word = str(input("Enter a Word : "))
 if word in corrector:
     print("Correct")
 else:
